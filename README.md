@@ -1,13 +1,15 @@
-# Personal Portfolio Website
+# Personal Website
 
-## Overview
-A modern, responsive personal portfolio website for Ramesh Kumar, showcasing professional projects and contact information.
+Welcome to my personal website repository! Visit the live site at [https://rameh-kumar.github.io](https://rameh-kumar.github.io)
+
+## About
+This is my personal portfolio website showcasing my projects and experiences.
 
 ## Technologies Used
 - HTML5
-- Tailwind CSS
+- CSS (Tailwind CSS)
 - JavaScript
-- Font Awesome Icons
+- GitHub Pages for hosting
 
 ## Setup Instructions
 1. Clone the repository
