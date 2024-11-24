@@ -1,0 +1,38 @@
+/* Custom CSS for additional styling */
+body {
+    scroll-behavior: smooth;
+}
+
+/* Add subtle animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+section {
+    animation: fadeIn 1s ease-out;
+}
+
+/* Add a subtle cream hover effect to inputs */
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #f5f5dc; /* cream */
+    background-color: #fff0f0; /* cream */
+    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav div:first-child {
+        margin-bottom: 1rem;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
